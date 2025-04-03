@@ -1,0 +1,29 @@
+{
+  "name": "mern_product_store",
+  "version": "1.0.0",
+  "description": "A product store for users to buy items, admin can add and delete products",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonnymox/mern_product_store.git"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nonnymox/mern_product_store/issues"
+  },
+  "homepage": "https://github.com/nonnymox/mern_product_store#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
